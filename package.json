@@ -1,0 +1,17 @@
+{
+  "name": "gopro-media-downloader",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Resumable bulk downloader for GoPro camera media over its local HTTP server.",
+  "type": "module",
+  "bin": {
+    "gopro-download": "./gopro-download.mjs"
+  },
+  "scripts": {
+    "start": "node gopro-download.mjs",
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
